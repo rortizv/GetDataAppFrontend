@@ -1,0 +1,22 @@
+<div class="container mt-5">
+  <div class="column">
+    <div class="text-center" fxLayoutAlign="center">
+      <div class="card myCard" fxLayoutAlign="center" (click)="listarPersonas()">
+        <button type="button" class="myButton btn btn-primary btn-lg">Buscar</button>
+      </div>
+      <br>
+      <table class="table-hover table">
+        <tbody>
+          <tr *ngIf="listPersonas.length>0">
+            <th>ID</th>
+            <th>NOMBRE</th>
+          </tr>
+          <tr *ngFor="let element of listPersonas">
+            <td>{{element.id}}</td>
+            <td>{{element.nombre}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
