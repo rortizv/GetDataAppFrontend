@@ -1,5 +1,7 @@
 # GetDataApp
 
+Repo desde el cual se consume el servicio del proyecto WebApi.  Es un listar personas, llama un servicio de una api que lista las personas que están en una tabla de una base de datos en SQL Server.  La data se muestra con Angular.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
 ## Development server
